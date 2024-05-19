@@ -74,7 +74,7 @@ class MyPortfolio:
         """
         TODO: Complete Task 4 Below
         """
-
+        self.portfolio_weights["XLK"].fillna(1, inplace=True)
         """
         TODO: Complete Task 4 Above
         """
